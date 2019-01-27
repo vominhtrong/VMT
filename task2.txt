@@ -1,0 +1,10 @@
+image = new SimpleImage("flowers.jpg");
+
+for (pixel: image) {
+pixel.setRed(pixel.getRed() /0.3);
+pixel.setGreen(pixel.getGreen()/0.3);
+pixel.setBlue(pixel.getBlue()/0.3);
+
+}
+
+print(image);
